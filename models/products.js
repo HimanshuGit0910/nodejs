@@ -31,6 +31,3 @@ company:{
 });
 
 module.exports=mongoose.model("Product",productsSchema);
-
-
-
