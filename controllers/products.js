@@ -6,7 +6,8 @@ const getAllProducts = async (req ,res)=>{
 };
 
 const getAllProductstesting = async  (req ,res)=>{
-    res.status(200).json({msg:"i am getallproductstesting"})
+    const myData= await Product.find({name:"samsung"});
+    res.status(200).json({myData})
 };
 
 module.exports={getAllProducts,getAllProductstesting};
