@@ -14,7 +14,13 @@
     {
         "name":"watch",
         "price":"204",
-        "feature":"true",
+        "featured":"true",
+        "company":"apple" 
+    },
+    {
+        "name":"iphone",
+        "price":"154",
+        "featured":"true",
         "company":"apple" 
     },
     {
@@ -22,12 +28,6 @@
         "price":"154",
         "feature":"true",
         "company":"apple" 
-    },
-    {
-        "name":"iphone",
-        "price":"154",
-        "feature":"true",
-        "company":"samsung" 
     },
     {
         "name":"samsung",
